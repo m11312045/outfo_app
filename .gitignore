@@ -1,0 +1,13 @@
+# node / Vite / build output 通通不要進 Git
+node_modules/
+.vite/
+dist/
+build/
+
+# log & env
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.env
+.env.*
